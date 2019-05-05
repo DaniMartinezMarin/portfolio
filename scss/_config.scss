@@ -1,9 +1,9 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url('/dist/img/background.jpg');
-$portrait-image: url('/dist/img/portrait.png');
-$portrait-small-image: url('/dist/img/portrait_small.png');
+$home-image: url('../dist/img/background.jpg');
+$portrait-image: url('../dist/img/portrait.png');
+$portrait-small-image: url('../dist/img/portrait_small.png');
 $background-opacity: 0.7;
 
 @mixin easeOut {
