@@ -3,12 +3,24 @@
     .projects {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .menu-branding {
+        .portrait {
+            background-position-x: -1.5vw;
+        }
+    }
 }
 
 // Desktops & Laptops
 @include mediaLg {
     .projects {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .menu-branding {
+        .portrait {
+            background-position-x: -2.5vw;
+        }
     }
 }
 
@@ -47,7 +59,7 @@
 
         .portrait {
             background: $portrait-small-image;
-            background-position-x: -5vw;
+            background-position-x: -2.5vw;
             width: 150px;
             height: 150px;
         }
@@ -74,6 +86,13 @@
     // .menu-nav {
     //     font-size: 18px;
     // }
+
+    .menu-branding {
+        .portrait {
+            background-position-x: -4.5vw;
+        }
+    }
+
     main {
         padding: 2rem;
         #home h1 {

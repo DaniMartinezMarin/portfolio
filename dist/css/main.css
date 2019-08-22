@@ -238,11 +238,15 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  .menu-branding .portrait {
+    background-position-x: -1.5vw; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .menu-branding .portrait {
+    background-position-x: -2.5vw; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -268,7 +272,7 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait_small.png");
-      background-position-x: -5vw;
+      background-position-x: -2.5vw;
       width: 150px;
       height: 150px; }
   .about-info {
@@ -278,6 +282,8 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  .menu-branding .portrait {
+    background-position-x: -4.5vw; }
   main {
     padding: 2rem; }
     main #home h1 {
